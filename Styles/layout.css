@@ -11,7 +11,7 @@
 li, a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400; 
-    color: rgb(186, 39, 255);
+    color: rgb(0, 255, 21);
     text-decoration: none;
 } 
 
@@ -39,4 +39,44 @@ header{
 
 .nav-links li a:hover{
     color: aqua;
+}
+
+html, body{
+    height: 100%
+}
+
+body {
+    min-height: 100%; 
+    margin-bottom: -100px;
+    background: #dddddd;
+
+} 
+
+body::after{
+    content: "";
+    display: block;
+    height: 100px;
+}
+
+footer {
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    display: flex; 
+    justify-content: space-around;
+    align-items: center; 
+    padding: 20px 10%;
+
+}
+
+.nav-links-bottom {
+    list-style: none; 
+    color: #dddddd;
+}
+
+address{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }

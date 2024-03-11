@@ -11,7 +11,7 @@
 li, a{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400; 
-    color: rgb(0, 255, 21);
+    color: rgb(39, 255, 57);
     text-decoration: none;
 } 
 
@@ -48,7 +48,7 @@ html, body{
 body {
     min-height: 100%; 
     margin-bottom: -100px;
-    background: #dddddd;
+    background: rgb(151, 151, 151);
 
 } 
 
@@ -59,7 +59,7 @@ body::after{
 }
 
 footer {
-    position: relative;
+    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;

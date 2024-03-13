@@ -5,11 +5,11 @@
     margin: 0;
     padding: 0 ;
     background-color: rgb(151, 151, 151);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
 li, a{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 400; 
     color: rgb(39, 255, 57);
     text-decoration: none;
@@ -82,7 +82,3 @@ footer {
     color: #dddddd;
 }
 
-address{
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-
-}

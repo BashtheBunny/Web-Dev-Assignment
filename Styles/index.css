@@ -1,0 +1,11 @@
+#about{
+    text-align: justify;
+    text-justify: inter-word;
+    padding-left: 10%;
+    padding-right: 10%;
+    ;
+}
+
+#about h2{ 
+    text-align: center;
+}

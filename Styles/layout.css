@@ -26,6 +26,8 @@ header{
     cursor: pointer;
     width: 10% ;
     height: 10%;
+    max-width: 150px;
+    max-height: 150px;
 
 }
 .nav-links {
@@ -39,6 +41,10 @@ header{
 
 .nav-links li a:hover{
     color: aqua;
+}
+
+.contactus a :hover{
+    color: rgb(255, 0, 255);
 }
 
 html, body{

@@ -1,27 +1,38 @@
-.product-container {
+
+*{
+    box-sizing: border-box;
+    padding: 0; 
+    margin: 0;
+}
+.product{ 
+    box-shadow: 10px 10px 10px #000000;
+    border-radius: 30px; 
+    border-top-right-radius: 30px;
+}
+body{ 
+    width: 100%;
+    padding: 20px;
+}
+.prod-container {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Create columns with a minimum width of 200px */
-    grid-gap: 20px; /* Add some space between grid items */
+    grid-template-columns: repeat(4, 1fr);
+    gap: 30px;
+    color: #fff;
+    overflow: auto;
 }
 
-.product {
-    box-sizing: border-box; /* Include padding and border in the width */
-    text-align: center; /* Center text content */
-    border: 1px solid #ccc; /* Add border for visualization */
+.product { 
+    box-shadow: 10px 10px 10px #000000;
+    border-radius: 30px; 
+    border-top-right-radius: 30px;
 }
 
-.product img {
-    max-width: 100%; /* Ensure images don't exceed their container width */
-    height: auto; /* Maintain aspect ratio */
-    display: block;
-}
+.product img { 
+    width: 100%;
+    border-top-right-radius: 30px;
+    border-top-left-radius: 30px;
+} 
 
-.product figcaption {
-    margin-top: 10px; /* Add space between image and caption */
-}
-
-@media (max-width: 768px) {
-    .product-container {
-        grid-template-columns: 1fr; /* Change to single column layout on smaller screens */
-    }
+.prod-description {
+    text-align: center;
 }

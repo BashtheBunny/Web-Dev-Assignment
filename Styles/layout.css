@@ -4,14 +4,14 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0 ;
-    background-color: rgb(151, 151, 151);
+    background-color:rgb(71, 71, 71);;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 
 li, a{
     font-weight: 400; 
-    color: rgb(39, 255, 57);
+    color: rgb(89, 252, 102);
     text-decoration: none;
 } 
 
@@ -54,18 +54,18 @@ html, body{
 body {
     min-height: 100%; 
     margin-bottom: -100px;
-    background: rgb(151, 151, 151);
+
 
 } 
 
-body::after{
+body:after{
     content: "";
     display: block;
     height: 100px;
 }
 
 footer {
-    position: fixed;
+    position: bottom;
     left: 0;
     bottom: 0;
     width: 100%;
@@ -73,7 +73,8 @@ footer {
     display: flex; 
     justify-content: space-around;
     align-items: center; 
-    padding: 20px 10%;
+    padding-top: 10%;
+    
 
 }
 

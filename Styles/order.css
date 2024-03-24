@@ -8,6 +8,7 @@
     text-align: center;
     font-size:xx-large;
     color: rgba(0, 255, 255, 0.61);
+    padding-bottom: 2%;
 }
 
 .info{
@@ -20,6 +21,17 @@
     font-size: medium;
 }
 
+#faq{ 
+    text-align: center;
+    padding-top: 5%;
+}
+
+#faq h1{ 
+    color: rgba(255, 0, 0, 0.329);
+    font-size: xx-large;
+    padding-bottom: 2%;
+
+}
 
 .answers{
     display: flexbox;
@@ -33,14 +45,3 @@
     padding-top: 2%;
 }
 
-#faq{ 
-    text-align: center;
-    padding-top: 10%;
-}
-
-#faq h1{ 
-    color: rgba(255, 0, 0, 0.329);
-    font-size: xx-large;
-    padding-bottom: 2%;
-
-}

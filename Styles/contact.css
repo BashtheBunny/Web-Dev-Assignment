@@ -1,0 +1,74 @@
+@media (pointer: coarse) {
+    input[type="checkbox"] {
+      width: 30px;
+      height: 30px;
+    }
+}
+@media (pointer: fine) {
+    input[type="checkbox"] {
+      width: 15px;
+      height: 15px;
+    }
+}
+  
+  #formheader{ 
+    padding: 5%;
+}
+
+.formfield {
+    display:flexbox ;
+
+  }
+
+  form div {
+    margin-top: 1rem;
+}
+  
+  .formfield 
+  label,
+  input,
+  textarea
+  button,
+  select{
+    font-size: 1.3rem;
+    line-height: 1.2; 
+    border-radius: 10px;
+}
+  
+.formcontainer {
+    width: 30em;
+    max-width: 90%;
+    margin: 0 auto;
+  }
+  
+  label {
+    margin-bottom: 0.4rem;
+    display: block;
+  }
+  
+  input,
+  textarea {
+    padding: 0.4rem;
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  button {
+    margin-top: 2rem;
+  }
+
+  button:focus { 
+    outline: auto green;
+  } 
+
+
+
+  #message {
+    width: 100%; 
+
+  } 
+
+textarea {
+    height: 300px;
+}
+
